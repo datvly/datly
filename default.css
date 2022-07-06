@@ -1,6 +1,7 @@
 :root{
 	--mainColor:#eaeaea;
 	--secondaryColor:#fff;
+	
 
 	--borderColor:#c1c1c1;
 
@@ -11,8 +12,7 @@
 
 	--previewBg:rgb(251, 249, 243, 0.8);
 	--previewShadow:#f0ead6;
-
-
+	
 	--buttonColor:black;
 
 
@@ -286,6 +286,10 @@ h6 { font-size: 16px;}
 	left: -5px
 }
 
+
+/* 
+About me section
+*/ 
 .about-wrapper{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
