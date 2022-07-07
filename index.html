@@ -47,7 +47,7 @@
 
 				<div class="left-column">
 					<img id="profile_pic" src="images/Dat.jpg">
-					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+					<h5 style="text-align: center;line-height: 4;">Personalize Theme</h5>
 
 					<div id="theme-options-wrapper">
 						<div data-mode="light" id="light-mode" class="theme-dot"></div>
@@ -203,37 +203,35 @@
 			<a href=""></a>
 			<h3 style="text-align: center;">Let's connect!</h3>
 
-			<form class="row g-3" action="https://formsubmit.co/b6c7a3cdadeb5f8499adec66b729ef97" method="POST">
-				<form id="contact-form">
-					<!-- Honeypot -->
-					<input type="text" name="_honey" style="display: none;">
-		
-					<!-- Disable Captcha -->
-					<input type="hidden" name="_captcha" value="false">
-		
-					<input type="hidden" name="_next" value="https://datvly.github.io/datly/success.html" >
-		
-					<div class="col-md-6">
-						<label for="firstName" class="form-label">First Name</label>
-						<input type="text" class="form-control" name="name" id="firstName" required>
-					</div>
-					<div class="col-md-6">
-						<label for="lastName" class="form-label">Last Name</label>
-						<input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
-					</div>
-					<div class="col-md-12">
-						<label for="emailInfo" class="form-label">E-mail</label>
-						<input type="email" class="form-control" name="email" id="emailInfo" required>
-					</div>
-					<div class="col-md-12">
-						<label for="comments" class="form-label">Message</label>
-						<textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
-					</div>
-					<div class="col-md-12">
-						<button type="submit" class="btn btn-primary">Submit</button>
-					</div>
-				</form>
-			  </form>
+			<form id="contact-form" class="row g-3" action="https://formsubmit.co/b6c7a3cdadeb5f8499adec66b729ef97" method="POST">
+				<!-- Honeypot -->
+				<input type="text" name="_honey" style="display: none;">
+	
+				<!-- Disable Captcha -->
+				<input type="hidden" name="_captcha" value="false">
+	
+				<input type="hidden" name="_next" value="https://datvly.github.io/datly/success.html" >
+	
+				<div class="col-md-12">
+					<label for="name" class="form-label">Name</label>
+					<input type="text" class="form-control" name="name" id="name" required>
+				</div>
+				<div class="col-md-12">
+					<label for="subject" class="form-label">Subject</label>
+					<input type="text" class="form-control" name="subject" id="subject" required>
+				</div>
+				<div class="col-md-12">
+					<label for="emailInfo" class="form-label">E-mail</label>
+					<input type="email" class="form-control" name="email" id="emailInfo" required>
+				</div>
+				<div class="col-md-12">
+					<label for="comments" class="form-label">Message</label>
+					<textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
+				</div>
+				<div class="col-md-12">
+					<button id="submit-btn" type="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</form>
 		</div>
 	</section> 
 

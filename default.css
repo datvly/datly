@@ -423,7 +423,7 @@ About me section
 @media screen and (max-width: 400px){
 	#preview-shadow{
 		max-width: 280px;
-		height: 180px;
+		height: 20000px;
 		padding-left: 10px;
 		padding-top: 10px;
 	}
