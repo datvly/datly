@@ -305,6 +305,7 @@ About me section
 
 
 #skills{
+	margin-top: 10px;
 	display: flex;
 	justify-content: space-evenly;
 	background-color: var(--previewShadow);
@@ -997,7 +998,7 @@ About me section
 	}
 
 }
-
+ 
 
 @keyframes animStar {
     from {
