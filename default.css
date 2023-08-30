@@ -233,12 +233,26 @@ h6 { font-size: 16px;}
 	text-align: center;
 }
 
+#social-medias{
+    font-size: 50px;
+    display: flex;     /* Change from grid to flex */
+    justify-content: center;  /* Horizontally center the icons */
+    align-items: center;      /* Vertically center the icons */
+    position: relative;
+
+}
+#social-medias a {
+    margin-right: 20px;  /* Add space to the right of each icon */
+}
+#social-medias a:last-child {
+    margin-right: 0;     /* Remove the margin for the last icon */
+}
 .right-column{
 	grid-area: right-column;
 	display: grid;
 	align-content: center;
 
-	padding-top: 50px;
+	padding-top: 0;
 	padding-bottom: 50px;
 }
 
